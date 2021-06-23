@@ -1,5 +1,5 @@
 import unittest
-from DeZero import *
+from dezero import *
 
 def numerical_diff(f, x, eps=1e-4):
     x0 = Variable(x.data-eps)
