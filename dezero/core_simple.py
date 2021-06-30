@@ -46,7 +46,6 @@ class Variable:
                     x.grad = gx
                 else:
                     x.grad = x.grad + gx
-                x.grad = gx
 
                 if x.creator is not None:
                     add_func(x.creator)
